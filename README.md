@@ -44,7 +44,7 @@ https://mf97.utcode.net/
 
 ## Reusing this repo
 
-When reusing this repo, you need to edit ./docusaurus.config.js , ./static/_redirects and ./src/pages/index.tsx .
+When reusing this repo, you need to edit ./docusaurus.config.js , ./static/\_redirects and ./src/pages/index.tsx .
 
 Do NOT reuse the same remote repository, otherwise you will pollute previous generations.
 Instead, make a new one by cloning && deleting .git && `git init`
