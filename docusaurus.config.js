@@ -12,7 +12,7 @@ const darkCodeTheme = themes.dracula;
 /** @type {import("@docusaurus/types").Config} */
 const config = {
   title: "あなたのためのプログラミング",
-  tagline: "ut.code(); 第97回五月祭企画",
+  tagline: "ut.code(); 第75回駒場祭企画",
   favicon: "img/favicon.ico",
   url: "https://mf97.utcode.net",
   baseUrl: "/",
