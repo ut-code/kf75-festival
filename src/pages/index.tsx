@@ -40,7 +40,7 @@ Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos sint est omnis inc
     title: "麻雀",
     coverImage: {
       src: "img/u_place.png",
-      alt: "イメージの代替テキスト",
+      alt: "麻雀のイメージ",
     },
     description:
       // prettier-ignore
@@ -89,7 +89,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae nisi simil
     title: "競馬AI",
     coverImage: {
       src: "https://source.unsplash.com/_LIZ36OHGKk/800x300",
-      alt: "ハッカーのイメージ",
+      alt: "競馬のイメージ",
     },
     description:
       // prettier-ignore
