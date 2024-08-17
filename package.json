@@ -1,0 +1,51 @@
+{
+  "name": "festival-website",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "docusaurus": "docusaurus",
+    "start": "docusaurus start",
+    "build": "docusaurus build",
+    "swizzle": "docusaurus swizzle",
+    "deploy": "docusaurus deploy",
+    "clear": "docusaurus clear",
+    "serve": "docusaurus serve",
+    "write-translations": "docusaurus write-translations",
+    "write-heading-ids": "docusaurus write-heading-ids",
+    "typecheck": "tsc"
+  },
+  "dependencies": {
+    "@codesandbox/sandpack-react": "*",
+    "@docusaurus/core": "*",
+    "@docusaurus/preset-classic": "*",
+    "@mdx-js/react": "*",
+    "clsx": "*",
+    "prism-react-renderer": "*",
+    "react": "*",
+    "react-dom": "*",
+    "react-tabs": "*",
+    "rehype-katex": "*",
+    "remark-math": "*"
+  },
+  "devDependencies": {
+    "@docusaurus/module-type-aliases": "*",
+    "@docusaurus/tsconfig": "*",
+    "@docusaurus/types": "*",
+    "typescript": "*"
+  },
+  "browserslist": {
+    "production": [
+      ">0.5%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 3 chrome version",
+      "last 3 firefox version",
+      "last 5 safari version"
+    ]
+  },
+  "engines": {
+    "node": ">=16.14"
+  }
+}
