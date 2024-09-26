@@ -27,31 +27,13 @@ const config = {
       "classic",
       /** @type {import("@docusaurus/preset-classic").Options} */
       ({
-        docs: {
-          sidebarPath: "./create-cpu/sidebars.js",
-          path: "create-cpu",
-          routeBasePath: "create-cpu",
-        },
+        docs: false,
         blog: false,
         theme: {
           customCss: "./src/css/custom.css",
         },
       }),
     ],
-  ],
-  plugins: [
-    /*
-    [
-      "@docusaurus/plugin-content-docs",
-      /** @type {import("@docusaurus/plugin-content-docs").Options} //
-      ({
-        id: "create-cpu",
-        path: "create-cpu",
-        routeBasePath: "create-cpu",
-        sidebarPath: "./create-cpu/sidebars.js",
-      }),
-    ],
-    */
   ],
   stylesheets: [
     {
