@@ -1,14 +1,14 @@
 default: start
 
 start:
-    npm run start
+    bun start
 
 watch:
     echo "Unknown command"
     exit 1
 
 build:
-    npm run build
+    bun run build
 
 serve:
-    npm run serve
+    bun run serve
