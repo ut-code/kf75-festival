@@ -13,7 +13,6 @@
         buildInputs = with pkgs; [
           nodejs_22
           bun
-          just
         ];
       };
     });
