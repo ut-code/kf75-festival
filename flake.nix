@@ -14,6 +14,9 @@
           nodejs_22
           bun
         ];
+        shellHook = ''
+          bun install
+        '';
       };
     });
 }

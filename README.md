@@ -5,7 +5,6 @@ This website is built using [Docusaurus 3](https://docusaurus.io/), a modern sta
 ## 世代管理
 
 第75回駒場祭以降、各学園祭ごとの差分はタグで管理することにします。各学園祭の直前 or 直後に、その学園祭に対応するタグ (例: 第75回駒場祭の場合は `kf75`) を発行してください。
-また、
 
 ## 開発
 
@@ -13,10 +12,8 @@ This website is built using [Docusaurus 3](https://docusaurus.io/), a modern sta
 
 インストールするもの:
 
-- Node.js
-- Bun
-
-(代わりに Nix でも可)
+- Node.js (for compat)
+- Bun: JavaScript Runtime + Package Manager + Test Runner
 
 ### 依存のインストール
 
@@ -52,7 +49,7 @@ WANT:
 - これまでは毎回リポジトリを作り直していたが、これからは同一リポジトリで管理する。
 HOW:
 1. ブランチを分ける -> 誤って消しそうなので却下。
-2. タグをつける -> 
+2. タグをつける ->
   完成するまでタグがつけられないのでそれまで一時的に main を指すようにし、終わったらタグを指すように Cloudflare の設定から変更する必要がある。
   面倒だが、安全ではある。
   -> これにしている。

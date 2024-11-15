@@ -1,0 +1,7 @@
+pre-commit:
+  parallel: true
+  commands:
+    prettier:
+      glob: "*"
+      run: bunx prettier --write --ignore-unknown -- {staged_files}
+      stage_fixed: true
