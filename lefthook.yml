@@ -5,3 +5,5 @@ pre-commit:
       glob: "*"
       run: bunx prettier --write --ignore-unknown -- {staged_files}
       stage_fixed: true
+    typecheck:
+      run: bun typecheck
