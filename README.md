@@ -67,6 +67,9 @@ main ブランチが自動で https://festival.utcode.net に反映されます�
 
 - https://kf75.utcode.net/
 - https://mf97.utcode.net/
+- https://kf74.utcode.net/
+- https://mf96.utcode.net/
+- https://kf73.utcode.net/
 
 ```mermaid
 gitGraph:
