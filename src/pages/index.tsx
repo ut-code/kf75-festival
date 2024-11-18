@@ -37,9 +37,9 @@ Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos sint est omnis inc
     requiredTime: "10分～",
   },
   {
-    title: "麻雀",
+    title: "ひとり麻雀",
     coverImage: {
-      src: "img/u_place.png",
+      src: "img/hitori-mahjong.png",
       alt: "麻雀のイメージ",
     },
     description:
@@ -50,7 +50,7 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis eum quo cum vo
     linkTo: "https://u-place.onrender.com/",
     isNew: true,
     targetAge: "中学生以上におすすめ",
-    requiredTime: "10秒〜",
+    requiredTime: "5分〜",
   },
   // permanent project:
   {
