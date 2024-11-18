@@ -75,13 +75,13 @@ Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos sint est omnis inc
   {
     title: "麻雀",
     image: {
-      src: "img/piyo.png",
+      src: "img/hitori-mahjong.png",
       alt: "麻雀のイメージ",
     },
     description: `
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis eum
-				quo cum voluptatem iure ab consectetur accusantium porro vel. Alias
-				debitis minus similique blanditiis velit quo, quia enim quas aliquam!
+        麻雀はハマると抜け出せなくなるくらい面白いにもかかわらず、鳴きや点数計算、
+        押し引きといったように様々な要素があるため、始めるハードルが上がってしまっています。
+        そこで、「ひとり麻雀」では平面の牌効率だけのパズルとしてもっと簡単に遊べるようにしました。
 			`,
     url: "/mahjong",
     isNew: true,
