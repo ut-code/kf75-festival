@@ -45,7 +45,7 @@ Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos sint est omnis inc
     description:
       // prettier-ignore
       <p>
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis eum quo cum voluptatem iure ab consectetur accusantium porro vel. Alias debitis minus similique blanditiis velit quo, quia enim quas aliquam!
+麻雀はハマると抜け出せなくなるくらい面白いにもかかわらず、鳴きや点数計算、押し引きといったように様々な要素があるため、始めるハードルが上がってしまっています。そこで、平面の牌効率だけのパズルとしてもっと簡単に遊べるようにしたゲームがこの「ひとり麻雀」です。
       </p>,
     linkTo: "https://u-place.onrender.com/",
     isNew: true,
