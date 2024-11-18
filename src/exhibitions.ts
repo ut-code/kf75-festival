@@ -73,7 +73,7 @@ Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos sint est omnis inc
   },
   */
   {
-    title: "麻雀",
+    title: "ひとり麻雀",
     image: {
       src: "img/hitori-mahjong.png",
       alt: "麻雀のイメージ",
