@@ -83,7 +83,7 @@ Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos sint est omnis inc
         押し引きといったように様々な要素があるため、始めるハードルが上がってしまっています。
         そこで、「ひとり麻雀」では平面の牌効率だけのパズルとしてもっと簡単に遊べるようにしました。
 			`,
-    url: "/mahjong",
+    url: "https://kf-hitori-mahjong-x1nh.onrender.com",
     isNew: true,
     target: "小中学生以上におすすめ",
     takes: timeEst.short,
