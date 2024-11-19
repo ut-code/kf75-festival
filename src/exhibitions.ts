@@ -23,16 +23,13 @@ export const exhibitions: Exhibition[] = [
   {
     title: "AIとオセロ",
     image: {
-      src: "img/hoge.png",
+      src: "img/othello.png",
       alt: "オセロのイメージ",
     },
     description: `
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore
-				corporis enim accusamus. Et voluptates, atque consequuntur, dolores
-				dicta quibusdam reprehenderit aliquam veritatis unde sit ad. Consequatur
-				quis ea autem velit.
+    6✖️6マスのちょっと小さいオセロで、AIと対戦してみましょう！勝つのはちょっと難しいかも！？オセロを通じて「AIと対戦する楽しさ」や「AIがどのようなものかを理解するきっかけ」にもなります。さあ、あなたの戦略でAIを打ち負かしてみませんか？
 				`,
-    url: "/ai-othello",
+    url: "https://othello.utcode.net/",
     isNew: true,
     target: "どなたでも",
     takes: timeEst.short,
