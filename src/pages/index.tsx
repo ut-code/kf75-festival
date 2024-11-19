@@ -26,9 +26,20 @@ export default function Home(): JSX.Element {
           {exhibitions.map((ex) => (
             <li key={ex.title} className="col col--6 padding--md">
               <div className="card" style={{ height: "100%" }}>
-                <div className="card__image">
+                <div
+                  className="card__image"
+                  style={{
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center",
+                  }}
+                >
                   <img
-                    style={{ width: "100%" }}
+                    style={{
+                      maxWidth: "100%",
+                      maxHeight: "400px",
+                      objectFit: "contain",
+                    }}
                     src={ex.image.src}
                     alt={ex.image.alt}
                   />
