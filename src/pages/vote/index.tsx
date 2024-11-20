@@ -26,7 +26,7 @@ export default function Home(): JSX.Element {
           から駒場祭グランプリへの投票をお願いしております。1分ほどで完了しますので、次の動画を参考に投票をお願いします！
         </p>
         <div className={styles.container}>
-          <img src="img/kf75QR.svg" width={"500px"} height={"500px"}></img>
+          <img src="/img/kf75QR.svg" width={"500px"} height={"500px"} />
           <video
             src={howToVoteVideo}
             controls
