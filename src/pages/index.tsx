@@ -3,6 +3,8 @@ import Layout from "@theme/Layout";
 import Heading from "@theme/Heading";
 import { exhibitions } from "../exhibitions";
 
+const trackerURL = "https://" + "tracker.ut-code.workers" + ".dev";
+
 export default function Home(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
   return (
@@ -52,14 +54,28 @@ export default function Home(): JSX.Element {
                   <p>{ex.description}</p>
                 </div>
                 <div className="card__footer">
-                  <a
-                    href={ex.url}
-                    target="_blank"
+                  <button
+                    type="button"
+                    onClick={async () => {
+                      console.log(`clicked ${ex.title}`);
+                      const url = ex.url;
+                      window.open(url, "_blank").focus();
+                      // CORS の関係でエラーが出るが、特に問題ないので放置。
+                      try {
+                        await fetch(trackerURL, {
+                          method: "POST",
+                          body: JSON.stringify({
+                            url,
+                            key: "2e0c7cad39e09314a46f217c6107f96e08bd13984cd4ae4c29d96f5db440dba8",
+                          }),
+                        });
+                      } catch (err) {}
+                    }}
                     rel="noreferrer"
                     className="button button--primary button--block"
                   >
                     この企画を体験する
-                  </a>
+                  </button>
                 </div>
               </div>
             </li>
