@@ -58,11 +58,14 @@ const config = {
             type: "html",
             position: "right",
             value: `<a href="/vote" class="tooltip">
-              <img src="/img/trophy.svg" id="trophy-icon" alt="Vote" />
-              <div class="tooltip-text">
+            <div style="display: flex; align-items: center;">
+              <img src="/img/trophy.svg" id="trophy-icon" alt="Vote" style="margin-right: 8px;" />
+              <div>
                 この企画に投票する
               </div>
-            </a>`,
+            </div>
+          </a>
+          `,
           },
           {
             href: "https://utcode.net/",
