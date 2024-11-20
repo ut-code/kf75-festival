@@ -1,4 +1,8 @@
-type TargetAge = "どなたでも" | "小中学生以上におすすめ" | "大人向け";
+type TargetAge =
+  | "どなたでも"
+  | "小学生以上におすすめ"
+  | "中高生以上におすすめ"
+  | "大人向け";
 const timeEst = {
   short: "5分程度",
   med: "15分ほど",
@@ -45,7 +49,7 @@ export const exhibitions: Exhibition[] = [
 			`,
     url: "https://maze.utcode.net/",
     isNew: false,
-    target: "小中学生以上におすすめ",
+    target: "小学生以上におすすめ",
     takes: timeEst.med,
   },
   /*
@@ -66,22 +70,7 @@ Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos sint est omnis inc
     requiredTime: "10分～",
   },
   */
-  {
-    title: "ひとり麻雀",
-    image: {
-      src: "img/hitori-mahjong.png",
-      alt: "麻雀のイメージ",
-    },
-    description: `
-        麻雀はハマると抜け出せなくなるくらい面白いにもかかわらず、鳴きや点数計算、
-        押し引きといったように様々な要素があるため、始めるハードルが上がってしまっています。
-        そこで、「ひとり麻雀」では平面の牌効率だけのパズルとしてもっと簡単に遊べるようにしました。
-			`,
-    url: "https://mahjong.utcode.net/",
-    isNew: true,
-    target: "小中学生以上におすすめ",
-    takes: timeEst.short,
-  },
+
   {
     title: "Blosite",
     image: {
@@ -96,7 +85,40 @@ Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos sint est omnis inc
 			`,
     url: "/blosite",
     isNew: true,
-    target: "小中学生以上におすすめ",
+    target: "小学生以上におすすめ",
+    takes: timeEst.med,
+  },
+  {
+    title: "ひとり麻雀",
+    image: {
+      src: "img/hitori-mahjong.png",
+      alt: "麻雀のイメージ",
+    },
+    description: `
+        麻雀はハマると抜け出せなくなるくらい面白いにもかかわらず、鳴きや点数計算、
+        押し引きといったように様々な要素があるため、始めるハードルが上がってしまっています。
+        そこで、「ひとり麻雀」では平面の牌効率だけのパズルとしてもっと簡単に遊べるようにしました。
+			`,
+    url: "https://mahjong.utcode.net/",
+    isNew: true,
+    target: "中高生以上におすすめ",
+    takes: timeEst.short,
+  },
+  {
+    title: "競馬AI",
+    image: {
+      src: "img/horse.png",
+      alt: "競馬のイメージ",
+    },
+    description: `
+      競馬をAIで予測しようというのがこのプロジェクトが発足した理由です。
+      そしてこのサイトではそのAIと対戦をしたり、AIの学習に使われたデータについて閲覧することが出来ます。
+      AIとの対戦ではランダムで出てくる過去データをもとに順位の予想勝負をしてもらいます。
+      ハイスコアを出すとランキングボードに乗ることが出来るのでぜひ頑張ってください。
+			`,
+    url: "http://keiba.utcode.net/",
+    isNew: true,
+    target: "中高生以上におすすめ",
     takes: timeEst.med,
   },
   {
@@ -114,23 +136,6 @@ Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos sint est omnis inc
     url: "/security",
     isNew: false,
     target: "大人向け",
-    takes: timeEst.short, // 本当に？
-  },
-  {
-    title: "競馬AI",
-    image: {
-      src: "img/horse.png",
-      alt: "競馬のイメージ",
-    },
-    description: `
-      競馬をAIで予測しようというのがこのプロジェクトが発足した理由です。
-      そしてこのサイトではそのAIと対戦をしたり、AIの学習に使われたデータについて閲覧することが出来ます。
-      AIとの対戦ではランダムで出てくる過去データをもとに順位の予想勝負をしてもらいます。
-      ハイスコアを出すとランキングボードに乗ることが出来るのでぜひ頑張ってください。
-			`,
-    url: "http://keiba.utcode.net/",
-    isNew: true,
-    target: "大人向け",
-    takes: timeEst.med,
+    takes: timeEst.long,
   },
 ];
