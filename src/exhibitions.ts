@@ -134,7 +134,7 @@ Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos sint est omnis inc
       AIとの対戦ではランダムで出てくる過去データをもとに順位の予想勝負をしてもらいます。
       ハイスコアを出すとランキングボードに乗ることが出来るのでぜひ頑張ってください。
 			`,
-    url: "/horse-racing",
+    url: "https://horse.utcode.net/",
     isNew: true,
     target: "大人向け",
     takes: timeEst.med,
