@@ -35,18 +35,15 @@ export const exhibitions: Exhibition[] = [
     takes: timeEst.short,
   },
   {
-    title: "ブロックプログラミングで迷路",
+    title: "はじめてのプログラミング 迷路",
     image: {
-      src: "https://source.unsplash.com/hLvQ4-QEBAE/800x300",
+      src: "img/maze.png",
       alt: "迷路のイメージ",
     },
     description: `
-				Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos sint est
-				omnis incidunt harum, maiores accusantium reiciendis id error nobis!
-				Molestiae odit dignissimos illo nisi aperiam quod repellat placeat
-				voluptas.
+    学園祭企画で一番人気の企画！ブロックプログラミングを通して迷路のゴールまで到達し、プログラミングの基礎を体験してみましょう。最終的にはどのような迷路でもゴールできるアルゴリズムを作れるようになります！大人でも苦戦するかも！？
 			`,
-    url: "/mage",
+    url: "https://maze.utcode.net/",
     isNew: false,
     target: "小中学生以上におすすめ",
     takes: timeEst.med,
