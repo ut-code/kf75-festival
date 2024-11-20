@@ -13,8 +13,8 @@ const darkCodeTheme = themes.dracula;
 const config = {
   title: "あなたのためのプログラミング",
   tagline: "ut.code(); 第75回駒場祭企画",
-  favicon: "img/favicon.ico",
-  url: "https://mf97.utcode.net",
+  favicon: "/img/favicon.svg",
+  url: "https://kf75.utcode.net",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "throw",
@@ -51,7 +51,7 @@ const config = {
         title: "あなたのためのプログラミング",
         logo: {
           alt: "ut.code();",
-          src: "img/logo.svg",
+          src: "img/favicon.svg",
         },
         items: [
           {
