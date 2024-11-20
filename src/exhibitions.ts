@@ -74,16 +74,13 @@ Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos sint est omnis inc
   {
     title: "Blosite",
     image: {
-      src: "img/piyo.png",
+      src: "img/blosite.png",
       alt: "blosite のイメージ",
     },
     description: `
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
-				consequuntur pariatur quam nihil quasi a tempora cum magnam natus labore
-				velit ipsum provident, voluptas, expedita hic neque repellendus ipsam
-				sapiente?
+    ブロックプログラミングで自分だけのウェブサイトを作りましょう！豊富なチュートリアルがあるので、プログラミングが初めての方でも楽しめます。作ったサイトはBlosite内で共有することもできます！他の人に作ったウェブサイトを自慢しちゃいましょう〜
 			`,
-    url: "/blosite",
+    url: "https://blosite.utcode.net",
     isNew: true,
     target: "小学生以上におすすめ",
     takes: timeEst.med,
