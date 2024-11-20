@@ -45,7 +45,7 @@ export const exhibitions: Exhibition[] = [
       alt: "迷路のイメージ",
     },
     description: `
-    学園祭企画で一番人気の企画！ブロックプログラミングを通して迷路のゴールまで到達し、プログラミングの基礎を体験してみましょう。最終的にはどのような迷路でもゴールできるアルゴリズムを作れるようになります！大人でも苦戦するかも！？
+    ut.code(); がこれまでの学園祭でも提供してきた、一番人気のコンテンツ！ブロックプログラミングを通して迷路のゴールまで到達し、プログラミングの基礎を体験してみましょう。最終的にはどのような迷路でもゴールできるアルゴリズムを作れるようになります！大人でも苦戦するかも！？
 			`,
     url: "https://maze.utcode.net/",
     isNew: false,
@@ -124,16 +124,13 @@ Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos sint est omnis inc
   {
     title: "ハッカーになろう",
     image: {
-      src: "img/piyo.png",
+      src: "img/security.png",
       alt: "セキュリティのイメージ",
     },
     description: `
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae
-				nisi similique recusandae maxime suscipit explicabo ex inventore.
-				Laborum voluptates assumenda accusantium consequatur veniam ab amet,
-				temporibus repudiandae distinctio, dignissimos rerum?
+    悪用厳禁！Web サービスを攻撃して、隠された秘密のデータを盗み出そう！ 実際に使われたことのあるサイバー攻撃手法を習得して、あなたもついにハッカーデビュー！？ インターネット上の詐欺から身を守る方法も学べます。
 				`,
-    url: "/security",
+    url: "https://security.utcode.net/",
     isNew: false,
     target: "大人向け",
     takes: timeEst.long,
