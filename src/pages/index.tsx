@@ -67,6 +67,7 @@ export default function Home(): JSX.Element {
                           body: JSON.stringify({
                             url,
                             key: "2e0c7cad39e09314a46f217c6107f96e08bd13984cd4ae4c29d96f5db440dba8",
+                            kind: "festival",
                           }),
                         });
                       } catch (err) {}
