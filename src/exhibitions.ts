@@ -21,10 +21,12 @@ type Exhibition = {
   isNew: boolean;
   target: TargetAge;
   takes: TimeEst;
+  disabled?: boolean;
 };
 
 export const exhibitions: Exhibition[] = [
   {
+    disabled: true,
     title: "AIとオセロ",
     image: {
       src: "img/othello.png",

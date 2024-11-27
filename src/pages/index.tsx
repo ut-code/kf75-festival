@@ -56,6 +56,7 @@ export default function Home(): JSX.Element {
                 <div className="card__footer">
                   <button
                     type="button"
+                    disabled={ex.disabled}
                     onClick={async () => {
                       console.log(`clicked ${ex.title}`);
                       const url = ex.url;
